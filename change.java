@@ -1,6 +1,7 @@
 import java.util.List;
 
 public class Change {
+
     record Person(String name, int age) {}
 
     public static void main(String[] args) {
@@ -12,3 +13,4 @@ public class Change {
         );
     }
 }
+    
